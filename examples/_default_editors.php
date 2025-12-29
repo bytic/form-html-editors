@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $editors = form_html_editors();
 ?>
 <?php
@@ -17,7 +19,7 @@ foreach ($editors as $editor) { ?>
                         ?></code></pre>
             </div>
             <div class="col-8">
-                <textarea class="form-control" data-editor-name="<?php echo $editor->name; ?>"
+                <textarea class="form-control" data-editor-name="<?= $editor->name; ?>"
                           placeholder="Leave a comment here"></textarea>
             </div>
         </div>

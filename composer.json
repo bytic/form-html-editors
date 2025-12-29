@@ -31,15 +31,20 @@
   "require": {
     "php": "^7.2|^8.0",
     "ext-json": "*",
-    "bytic/purifier": "^1.0",
-    "bytic/config": "^1.0"
+    "bytic/purifier": "^1.0|^2.0",
+    "bytic/config": "^1.0|^2.0"
   },
   "require-dev": {
     "bytic/form": "^1.0",
     "bytic/view": "^1.0",
-    "tinymce/tinymce": "^4.8|^5.0",
+    "tinymce/tinymce": "^7.7",
     "bytic/phpqaconfig": "^1.0",
     "phpunit/phpunit": "^7.0|^8.0|^9.0",
     "mockery/mockery": "^1.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
   }
 }

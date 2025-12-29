@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+use ByTIC\Form\HtmlEditors\Editors\AbstractEditor;
+
 return [
     'filters' => [
         'custom' => [],
@@ -7,13 +11,13 @@ return [
     'editor_default' => 'simple',
     'editors' =>
         [
-            \ByTIC\Form\HtmlEditors\Editors\AbstractEditor::EDITOR_FULL => [
+            AbstractEditor::EDITOR_FULL => [
                 'relative_urls' => false
             ],
-            \ByTIC\Form\HtmlEditors\Editors\AbstractEditor::EDITOR_SIMPLE => [
+            AbstractEditor::EDITOR_SIMPLE => [
                 'relative_urls' => false
             ],
-            \ByTIC\Form\HtmlEditors\Editors\AbstractEditor::EDITOR_MINI => [
+            AbstractEditor::EDITOR_MINI => [
                 'relative_urls' => false
             ],
         ]

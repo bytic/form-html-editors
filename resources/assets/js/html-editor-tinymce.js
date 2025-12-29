@@ -17,7 +17,7 @@ import 'tinymce/plugins/image/plugin';
 import 'tinymce/plugins/lists/plugin';
 import 'tinymce/plugins/charmap/plugin';
 import 'tinymce/plugins/preview/plugin';
-import 'tinymce/plugins/hr/plugin';
+// import 'tinymce/plugins/hr/plugin';
 import 'tinymce/plugins/anchor/plugin';
 import 'tinymce/plugins/pagebreak/plugin';
 import 'tinymce/plugins/searchreplace/plugin';
@@ -32,9 +32,9 @@ import 'tinymce/plugins/nonbreaking/plugin';
 import 'tinymce/plugins/table/plugin';
 import 'tinymce/plugins/directionality/plugin';
 import 'tinymce/plugins/emoticons/plugin';
-import 'tinymce/plugins/template/plugin';
-import 'tinymce/plugins/paste/plugin';
-import 'tinymce/plugins/fullpage/plugin';
+// import 'tinymce/plugins/template/plugin';
+// import 'tinymce/plugins/paste/plugin';
+// import 'tinymce/plugins/fullpage/plugin';
 
 function initHtmlEditorTinyMCE(name, config) {
     if (config.hasOwnProperty('selector') === false) {
